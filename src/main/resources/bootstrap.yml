@@ -1,0 +1,5 @@
+spring:
+  application:    name: retovalue
+  profiles:    active: staging
+  cloud:    config:      enabled: true
+      uri: http://localhost:8888/
